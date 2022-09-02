@@ -1,0 +1,28 @@
+{
+  "name": "translate_cli_nodejs",
+  "version": "1.0.0",
+  "description": "tradutor de palavras no terminal.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luanfern/Translate_CLI_NodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luanfern/Translate_CLI_NodeJs/issues"
+  },
+  "homepage": "https://github.com/Luanfern/Translate_CLI_NodeJs#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
